@@ -15,6 +15,7 @@ const banners = [
   { src: a4, text: "Join Our Learning Community", buttonText: "Start Now" },
 ];
 
+  
 const Home = () => {
   const [currentBanner, setCurrentBanner] = useState(0);
   const [fadeIn, setFadeIn] = useState(true);
@@ -29,6 +30,10 @@ const Home = () => {
     }, 4000); // Change image every 4 seconds
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
+  }, []);
+
+  useEffect(() => {
+    document.title = 'Home';
   }, []);
 
   return (
