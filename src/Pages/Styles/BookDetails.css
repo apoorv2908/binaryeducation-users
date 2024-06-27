@@ -1,0 +1,27 @@
+.containery {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .book-coverx {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .pre-wrap {
+    white-space: pre-wrap;
+    width: 100%;
+  }
+  
+
+
+  .zo {
+    background-image: url('../Assets/banner-3.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
